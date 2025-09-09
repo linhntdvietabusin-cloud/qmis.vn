@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QMIS – Logistics, Thương mại & Năng lượng | ESG & Net Zero</title>
+  <meta name="description" content="QMIS: Logistics (chủ đạo), Năng lượng & BESS, ESG & Net Zero.">
+  <style>
+    :root{--primary:#0a66c2;--accent:#0b8bd6;--text:#243b53;--bg:#fff}
+    *{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--bg)}
+    a{color:var(--primary);text-decoration:none}
+    .navbar{position:sticky;top:0;background:#fff;border-bottom:1px solid #eef2f7;padding:12px 20px;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-weight:800;font-size:22px;color:var(--primary)}
+    .navlinks a{margin:0 12px;font-weight:600;color:#2f3e4e}
+    .lang-toggle{border:1px solid #d0d7e2;border-radius:8px;padding:6px 10px;background:#fff;cursor:pointer}
+    .hero{position:relative;text-align:center;color:#fff}
+    .hero img{width:100%;height:420px;object-fit:cover}
+    .hero .overlay{position:absolute;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;flex-direction:column}
+    .hero h1{font-size:38px;margin:12px 0}
+    .hero p{font-size:18px;margin:8px 0 20px;color:#e6f4ff}
+    .btn{padding:12px 18px;border-radius:10px;background:#fff;color:var(--primary);font-weight:700;text-decoration:none}
+    .section{padding:56px 20px;border-bottom:1px solid #f0f4f8}
+    .container{max-width:1100px;margin:auto}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+    .card{border:1px solid #e6ecf5;border-radius:14px;padding:18px;background:#fff;box-shadow:0 6px 20px rgba(10,38,64,0.05)}
+    .footer{padding:24px;text-align:center;color:#7b8ba1}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#e8f2ff;color:var(--primary);font-weight:700;font-size:12px}
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">QMIS</div>
+    <nav class="navlinks">
+      <a href="#home" data-i18n="nav_home">Trang chủ</a>
+      <a href="#services" data-i18n="nav_services">Dịch vụ</a>
+      <a href="#energy" data-i18n="nav_energy">Năng lượng</a>
+      <a href="#esg" data-i18n="nav_esg">ESG</a>
+      <a href="#projects" data-i18n="nav_projects">Dự án</a>
+      <a href="#contact" data-i18n="nav_contact">Liên hệ</a>
+    </nav>
+    <button class="lang-toggle" id="lang-toggle">VI / EN</button>
+  </header>
+
+  <section class="hero" id="home">
+    <img id="hero-image" alt="QMIS Banner">
+    <div class="overlay">
+      <span class="badge" id="hero-caption">Logistics • Trade • Energy</span>
+      <h1>Logistics, Thương mại &amp; Năng lượng vì tương lai bền vững</h1>
+      <p>Logistics (chủ đạo) • Energy &amp; BESS • ESG &amp; Net Zero</p>
+      <a class="btn" href="#contact" data-i18n="hero_cta">Liên hệ QMIS</a>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <div class="grid">
+        <div class="card"><span class="badge">CORE</span>
+          <h3 data-i18n="s_logistics_title">Logistics & Xúc tiến thương mại (Chủ đạo)</h3>
+          <p data-i18n="s_logistics_copy">Logistics quốc tế, hải quan, vận tải đa phương thức, kết nối Việt Nam – Trung Quốc – EU/UK.</p>
+        </div>
+        <div class="card"><span class="badge">ENERGY</span>
+          <h3 data-i18n="s_energy_title">Năng lượng & BESS</h3>
+          <p data-i18n="s_energy_copy">Giải pháp lưu trữ điện giúp giảm chi phí TOU, tăng ổn định và cắt giảm CO₂.</p>
+        </div>
+        <div class="card"><span class="badge">ESG</span>
+          <h3 data-i18n="s_esg_title">ESG & Net Zero</h3>
+          <p data-i18n="s_esg_copy">Giảm phát thải, chuỗi cung ứng xanh, minh bạch quản trị.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="energy">
+    <div class="container">
+      <h2>Năng lượng &amp; BESS</h2>
+      <p>QMIS Energy triển khai hệ thống lưu trữ điện 4 MW / 18 MWh tại Dung Quất: sạc 22:00–06:00, xả 17:00–22:00. Giúp tối ưu chi phí điện, tăng độ ổn định và giảm phát thải.</p>
+    </div>
+  </section>
+
+  <section class="section" id="esg">
+    <div class="container">
+      <h2>ESG &amp; Net Zero</h2>
+      <p>Tại QMIS, chúng tôi cam kết đồng hành cùng doanh nghiệp hướng tới <b>Net Zero</b>. Kết hợp logistics xanh, năng lượng tái tạo và BESS để giảm phát thải và đáp ứng chuẩn ESG toàn cầu.</p>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 data-i18n="projects_title">Case Studies / Dự án tiêu biểu</h2>
+      <div class="grid">
+        <div class="card"><h3 data-i18n="p1">Logistics VN–TQ–EU/UK</h3><p>OMS/EOM – Hải quan – Tối ưu tuyến vận tải.</p></div>
+        <div class="card"><h3 data-i18n="p2">BESS Dung Quất</h3><p>4 MW / ~18 MWh – ROI, tích hợp PV, tiết kiệm chi phí điện.</p></div>
+        <div class="card"><h3 data-i18n="p3">Tiết kiệm điện KCN</h3><p>Thiết kế BESS theo tải, vận hành & bảo trì.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 data-i18n="contact_title">Liên hệ</h2>
+      <form class="card" onsubmit="event.preventDefault();alert('Cảm ơn! Chúng tôi sẽ liên hệ sớm.');">
+        <input placeholder="Họ và tên / Name" required style="width:100%;margin:6px 0">
+        <input placeholder="Email" type="email" required style="width:100%;margin:6px 0">
+        <textarea placeholder="Nhu cầu / Message" style="width:100%;margin:6px 0" rows="5"></textarea>
+        <button class="btn" type="submit">Gửi / Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer"><small data-i18n="footer">© QMIS. Tất cả quyền được bảo lưu.</small></footer>
+
+  <script>
+    const dict={vi:{nav_home:'Trang chủ',nav_services:'Dịch vụ',nav_energy:'Năng lượng',nav_esg:'ESG',nav_projects:'Dự án',nav_contact:'Liên hệ',hero_cta:'Liên hệ QMIS',s_logistics_title:'Logistics & Xúc tiến thương mại (Chủ đạo)',s_logistics_copy:'Logistics quốc tế, hải quan, vận tải đa phương thức, kết nối Việt Nam – Trung Quốc – EU/UK.',s_energy_title:'Năng lượng & BESS',s_energy_copy:'Giải pháp lưu trữ điện giúp giảm chi phí TOU, tăng ổn định và cắt giảm CO₂.',s_esg_title:'ESG & Net Zero',s_esg_copy:'Giảm phát thải, chuỗi cung ứng xanh, minh bạch quản trị.',projects_title:'Case Studies / Dự án tiêu biểu',p1:'Logistics xuyên biên giới VN–TQ–EU/UK',p2:'BESS cho nhà máy tại Dung Quất',p3:'Giải pháp tiết kiệm điện cho KCN',contact_title:'Liên hệ',footer:'© QMIS. Tất cả quyền được bảo lưu.'},
+    en:{nav_home:'Home',nav_services:'Services',nav_energy:'Energy',nav_esg:'ESG',nav_projects:'Projects',nav_contact:'Contact',hero_cta:'Contact QMIS',s_logistics_title:'Logistics & Trade Promotion (Core)',s_logistics_copy:'International logistics, customs brokerage, multimodal transport, linking Vietnam – China – EU/UK.',s_energy_title:'Energy & BESS',s_energy_copy:'BESS lowers TOU costs, improves reliability and cuts CO₂.',s_esg_title:'ESG & Net Zero',s_esg_copy:'Emission reduction, green supply chains, transparent governance.',projects_title:'Featured Case Studies',p1:'Cross-border logistics VN–CN–EU/UK',p2:'BESS for Dung Quat plant',p3:'Industrial park energy-saving',contact_title:'Contact',footer:'© QMIS. All rights reserved.'}};
+    const LANG_KEY='qmis_lang';
+    function setLang(lang){const t=dict[lang];for(const[k,v]of Object.entries(t)){document.querySelectorAll(`[data-i18n="${k}"]`).forEach(el=>el.textContent=v);}localStorage.setItem(LANG_KEY,lang);}
+    document.addEventListener('DOMContentLoaded',()=>{
+      const banner4=`data:image/svg+xml;utf8,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="420"><rect width="100%" height="100%" fill="#0a66c2"/><text x="960" y="180" text-anchor="middle" font-size="60" fill="#fff" font-weight="bold">QMIS</text><text x="960" y="260" text-anchor="middle" font-size="26" fill="#fff">Đồng hành cùng doanh nghiệp hướng tới Net Zero</text><text x="960" y="300" text-anchor="middle" font-size="20" fill="#e6f4ff">Partnering with Businesses Towards Net Zero</text></svg>')}`;
+      const banner5=`data:image/svg+xml;utf8,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="420"><rect width="100%" height="100%" fill="#0b8bd6"/><text x="960" y="180" text-anchor="middle" font-size="60" fill="#fff" font-weight="bold">QMIS</text><text x="960" y="260" text-anchor="middle" font-size="26" fill="#fff">Logistics, Thương mại &amp; Năng lượng vì tương lai bền vững</text><text x="960" y="300" text-anchor="middle" font-size="20" fill="#e6f4ff">Logistics, Trade &amp; Energy for a Sustainable Future</text></svg>')}`;
+      const slides=[{src:banner4,caption:'Net Zero / ESG'},{src:banner5,caption:'Logistics • Trade • Energy'}];
+      let i=0;const hero=document.getElementById('hero-image');const cap=document.getElementById('hero-caption');
+      hero.src=slides[1].src;cap.textContent=slides[1].caption;
+      setInterval(()=>{i=(i+1)%slides.length;hero.src=slides[i].src;cap.textContent=slides[i].caption;},6000);
+      const saved=localStorage.getItem(LANG_KEY)||'vi';setLang(saved);
+      document.getElementById('lang-toggle').addEventListener('click',()=>{const lang=(localStorage.getItem(LANG_KEY)||'vi')==='vi'?'en':'vi';setLang(lang);});
+    });
+  </script>
+</body>
+</html>
